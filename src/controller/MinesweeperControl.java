@@ -131,7 +131,6 @@ public class MinesweeperControl {
 			// Check if the number of mines is valid
 			if (mines < (rows * columns)) {
 				gameBoard = new MinesweeperBoard(rows, columns, mines);
-				System.out.println("tablerocreado");
 			} else {
 				view.wrongConfig();
 			}
